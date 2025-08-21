@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <style>
+        .card {
+            /* border: 1px solid red;  */
+            /* 寬度 */
+            width: 300px;
+        }
+
+
+        .card img {
+            width: 100%;
+        }
+
+
+        .card-title {
+            /* 字體大小 */
+            font-size: 24px;
+            /* 邊界=>margin */
+            margin: 0;
+        }
+
+
+        .card-text {
+            font-size: 20px;
+            /* 左右對齊 */
+            /* text-align:justify ; */
+        }
+
+
+        .card-body {
+            /* 上下左右不貼邊（內縮排=>padding） */
+            padding-top: 20px;
+            padding-left: 5%;
+            padding-right: 5%;
+            width: 90%;
+        }
+
+
+        .card-body a {
+            /* 背景色 */
+            background-color: #333;
+            /* 文字色 */
+            color: #fff;
+            width: 100%;
+            /* 轉換為區塊元素 */
+            display: block;
+            /* 水平置中 */
+            text-align: center;
+            /* 文字底線取消 */
+            text-decoration: none;
+            /* 左縮排 */
+            padding-top: 20px;
+            /* 右縮排 */
+            padding-bottom: 20px;
+            /* 圓角 */
+            border-radius: 5px;
+            font-size: 20px;
+        }
+    </style>
+
+    </style>
+
+
+</head>
+
+<body>
+    <!-- 卡片元件 -->
+    <div class="card">
+        <img src="./富士山.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's
+                content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+</body>
+
+</html>
